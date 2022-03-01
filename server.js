@@ -7,6 +7,7 @@ const server = http.createServer((request, response) => {
   response.write('Hello World\n')
   response.write('Hello World 2\n')
   response.write('Hello World 3\n')
+  response.write('Hello World 4\n')
   response.end('Version: ' + process.env.NODE_VERSION + '\n')
 })
 
